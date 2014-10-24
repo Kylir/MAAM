@@ -16,9 +16,9 @@ To compile the source you need 3 additional libraries:
 - OpenGL
 - Glut, the OpenGL Utility Toolkit, you can find it here: [Glut](https://www.opengl.org/resources/libraries/glut/)
 
-For information the library option for gcc is LIBS=-ldrawstuff -lode -lm -lstdc++ -lGL -lGLU
+For information the library option for gcc is `LIBS=-ldrawstuff -lode -lm -lstdc++ -lGL -lGLU`
 
-In the make file you need to edit the INCLUDE_REP and LIBS_REP variables to point to your includes and libs paths.
+In the make file you need to edit the `INCLUDE_REP` and `LIBS_REP` variables to point to your includes and libs paths.
 
 Please note that all the comments are in French...
 
