@@ -2,6 +2,8 @@
 This is the final version of the code I created in September 2003 for my master internship.
 The goal was to simulate a colony of robots that have to cross a gap bigger than the size of one robot.
 
+The final report (in French) is here: [report](https://github.com/Kylir/MAAM/blob/master/Rapport.doc?raw=true)
+
 In my work I highlighted three strategies. Each one has its own folder:
 
 - fourmis: the simulation based on ant strategy.
@@ -10,9 +12,9 @@ In my work I highlighted three strategies. Each one has its own folder:
 
 To compile the source you need 3 additional libraries:
 
-- ODE, the open dynamics engine. You can find it here: http://ode.org/
+- ODE, the open dynamics engine. You can find it here: [ODE](http://ode.org/)
 - OpenGL
-- Glut, the OpenGL Utility Toolkit, you can find it here: https://www.opengl.org/resources/libraries/glut/
+- Glut, the OpenGL Utility Toolkit, you can find it here: [Glut](https://www.opengl.org/resources/libraries/glut/)
 
 For information the library option for gcc is LIBS=-ldrawstuff -lode -lm -lstdc++ -lGL -lGLU
 
